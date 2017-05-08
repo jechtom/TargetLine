@@ -3,6 +3,8 @@ Target Line
 
 Target Line is open-source shooting-range target imaging system for sport shooters. This device is placed next to your target and acts as WiFi hotspot. It enables you to view your target remotely on your mobile phone, tablet or computer. It was designed as DIY (do-it-yourself) alternative to expensive spotting scopes and commercial imaging systems. You can build it at home from globally available components.
 
+![Prototype](./docs/imgs/prototype-1.jpg)
+
 Build our own guide
 ==
 
