@@ -1,0 +1,106 @@
+    1  ip addr
+    5  sudo dpkg-reconfigure keyboard-configuration
+    7  sudo reboot
+    9  sudo nano /etc/network/interfaces
+   13  sudo apt-get install isc-dhcp-server
+   14  sudo nano /etc/dhcp/dhcpd.conf 
+   15  sudo nano /etc/default/isc-dhcp-server 
+   16  sudo apt-get install hostapd
+   17  sudo nano /etc/hostapd/hostapd.conf
+   18  sudo nano /etc/default/hostapd
+   19  sudo reboot
+   20  ip addr
+   29  sudo service hostapd restart
+   30  sudo service hostapd status
+   43  sudo service hostapd start
+   44  sudo service hostapd status
+   45  cat /var/lib/dhcp/dhcp.leases
+   47  sudo cat /var/lib/dhcp/dhcpd.leases
+   48  sudo apt-get upgrade
+   49  sudo apt-get install apache2 apache2-utils
+   60  sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+   61  service iptables save
+   62  sudo service iptables save
+   63  iptables-save
+   64  sudo iptables-save
+   65  service httpd status
+   66  service httpd
+   67  curl 192.168.43.1
+   68  ip addr
+   69  cat /var/lib/dhcp/dhcpd.leases
+   70  ls /var/www/html/
+   71  mv ~/test001.jpg /var/www/html/test001.jpg
+   72  sudo mv ~/test001.jpg /var/www/html/test001.jpg
+   73  curl localhost/test002.jpg
+   74  curl localhost/test001.jpg
+   75  clear
+   76  mc
+   77  sudo reboot
+   78  sudo nano /var/www/html/index.php 
+   79  curl localhost
+   80  ls -l /var/www/html/img
+   81  sudo nano /var/www/html/index.php 
+   82  ls -l /var/www/html/imgip addr
+   83  ip addr
+   84  ping google.com
+   85  ip addr eth0
+   86  ip add
+   87  ip addr
+   88  ip 
+   89  ip addr
+   90  sudo nano /etc/network/interfaces
+   91  sudo reboot
+   92  ip addr
+   93  sudo nano /etc/network/interfaces
+   94  ls /etc/network/interfaces.d/
+   95  ip addr
+   96  ifconfig
+   97  iptables -S
+   98  iptables -s
+   99  iptables 
+  100  iptables -h
+  101  iptables --list-all
+  102  iptables -L
+  103  sudo iptables --list
+  104  sudo iptables --list-rules
+  105  ifconfig
+  106  history
+  107  history | grep iptables
+  108  sudo iptables -S
+  109  sudo shutdown
+  110  sudo nano /etc/network/interfaces
+  111  sudo nano /var/www/html/index.php 
+  112  su -u www-data 
+  113  mkdir /var/www/html/static
+  114  sudo mkdir /var/www/html/static
+  115  pushd /var/www/html/static/
+  116  wget https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+  117  sudo wget https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+  118  ls
+  119  wget https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+  120  sudo wget https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+  121  sudo wget https://code.jquery.com/jquery-3.1.0.min.js
+  122  ls
+  123  cd ..
+  124  sudo nano /var/www/html/index.php 
+  125  cd img
+  126  ls -l
+  127  rm *
+  128  sudo rm * -f
+  129  ls
+  130  cd ..
+  131  ls
+  132  cp index.php take-photo.php
+  133  sudo cp index.php take-photo.php
+  134  sudo nano take-photo.php
+  135  sudo mv take-photo.php action.php
+  136  sudo nano action.pgp
+  137  sudo nano action.php
+  138  sudo nano index.php 
+  139  cd static/
+  140  ls
+  141  cd..
+  142  cd ..
+  143  sudo nano index.php 
+  144  sudo nano action.php 
+  145  sudo nano index.php 
