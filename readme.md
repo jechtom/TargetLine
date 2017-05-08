@@ -28,6 +28,7 @@ Features
 
 * Low price compared to commercial solutions
 
-== Contributors
+Contributors
+==
 
 * Tomas Jecha
